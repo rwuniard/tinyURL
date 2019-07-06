@@ -21,9 +21,9 @@ public class TinyURL {
             if ('a' <= tinyURL.charAt(i) && tinyURL.charAt(i) <= 'z')
                 id = (id * 62) + tinyURL.charAt(i) - 'a';
             if ('A' <= tinyURL.charAt(i) && tinyURL.charAt(i) <= 'Z')
-                id = (id * 62) + tinyURL.charAt(i) - 'Z';
+                id = (id * 62) + (tinyURL.charAt(i) - 'A') + 26;
             if ('0' <= tinyURL.charAt(i) && tinyURL.charAt(i) <= '9')
-                id = (id * 62) + tinyURL.charAt(i) - '0';
+                id = (id * 62) + (tinyURL.charAt(i) - '0') + 52;
         }
         return id;
     }
