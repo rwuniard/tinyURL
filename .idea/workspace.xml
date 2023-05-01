@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b3d7a0-37e6-4641-9044-8e9642645674" name="Changes" comment="Refactor class to have package and added Unit tests.">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TinyURLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="38b3d7a0-37e6-4641-9044-8e9642645674" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tinyURL/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tinyURL/Test/TinyURLTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tinyURL/rwcom/TinyURL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TinyURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rwcom/TinyURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tinyURL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tinyURL.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,25 +73,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TinyURLTest (1)">
+  <component name="RunManager" selected="JUnit.TinyURLTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tinyURL" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TinyURLTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tinyURL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TinyURLTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,9 +96,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TinyURLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tinyURL" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TinyURLTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TinyURLTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TinyURLTest (1)" />
+        <item itemvalue="JUnit.TinyURLTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TinyURLTest" />
       </list>
@@ -138,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682901191381</updated>
-      <workItem from="1682901194936" duration="2996000" />
+      <workItem from="1682901194936" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor class to have package and added Unit tests.">
       <created>1682904229161</created>
@@ -147,17 +146,60 @@
       <option name="project" value="LOCAL" />
       <updated>1682904229161</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor class to have package and added Unit tests.">
+      <created>1682904382549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682904382549</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add .gitignore to ignore output folder.">
+      <created>1682904593308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682904593308</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor class to have package and added Unit tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor class to have package and added Unit tests." />
+    <MESSAGE value="Add .gitignore to ignore output folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore to ignore output folder." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tinyURL$TinyURLTest.exec" NAME="TinyURLTest Coverage Results" MODIFIED="1682906135744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
   </component>
 </project>
