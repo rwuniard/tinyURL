@@ -1,6 +1,8 @@
+package rwcom;
+
 public class TinyURL {
 
-    private String map = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    private final String map = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
     public String idToShortURL(int id) {
         StringBuffer tinyURL = new StringBuffer();
